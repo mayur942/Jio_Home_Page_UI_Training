@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: none;
+    background-color: #0F3CC9;
+    height: 90px;
+
+}
+
+#logo {}
+
+#nav-left {
+    margin-right: auto;
+    font-size: 2em;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+}
+
+/* header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+} */
+
+header a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#nav-right {
+    margin-left: auto;
+    font-size: 2em;
+}
+
+#nav-right ul #text-box {
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000093;
+}
+
+#nav-right ul #text-box::placeholder {
+    padding: 15px;
+    color: white;
+}
+
+#nav-right ul #text-box:hover {
+    background-color: #061951;
+}
+
+#nav-right ul #inner-imgs {
+    width: 40px;
+}
+
+#background-image {
+    background-image: url('./JPN-HeroBanner_Desktop.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#background-image #main-para {
+    color: white;
+    font-weight: 900;
+    font-size: 4em;
+    width: 50%;
+    /* / margin-left: 40px; / */
+    padding: 35px 35px 0px 35px;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+}
+
+#background-image #second-para {
+    color: white;
+    font-weight: 500;
+    width: 45%;
+    padding: 24px 35px;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.3333333333;
+}
+
+#background-image #btn-jio-sim {
+    padding: 24px 35px;
+    border-radius: 50px;
+    margin: 12px 0px 0px 35px;
+    background-color: #0F3CC9;
+    border: none;
+    color: white;
+}
+
+#background-image #btn-experience {
+    /* / width: 110px; / */
+    width: max-content;
+    padding: 10px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 23px;
+    text-align: center;
+    /* / border: 1px thick; / */
+    border-width: thin;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+#lastfooter {
+    position: absolute;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+
+#bottom-left {
+    margin-right: auto;
+    font-size: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+}
+
+#copyright {
+    margin-right: auto;
+    font-size: 20px;
+    /* position: absolute; */
+    left: 60px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 100px;
+    text-align: justify;
+}
+
+#jio-img {
+    margin-right: auto;
+    font-size: 2em;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+}
+
+
+#footer-left {
+    float: left;
+    /* margin-right: auto; */
+    /* font-size: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px; */
+    /* / align-items: center; /
+    / text-align: center; / */
+    /* text-align: left; */
+}
+
+#footer-right {
+    float: right;
+    /* / flex / */
+    /* margin-right:0px; */
+}
+
+/* #jio-foot-logo{
+    margin-right: auto;
+    font-size: 10px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+}*/
+
+
+.icons {
+    align-items: center;
+    text-align: center;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 20px;
+    letter-spacing: -.07px;
+    word-spacing: 5px;
+    line-height: 1.4285714286
+}
+
+.content1 {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
+
+.content2 {
+    text-align: center;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 30px;
+    letter-spacing: -.72px;
+    /* line-height: 1.3333333333; */
+    background-color: whitesmoke
+}
+
+.cont {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 25px;
+    letter-spacing: -.09px;
+    line-height: 1.3333333333;
+}
+
+.content3 {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.content4 {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    background-color: #0f3cc9;
+}
+
+.cont1 {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 25px;
+    letter-spacing: -.09px;
+    line-height: 1.3333333333;
+    color: white;
+}
+
+.content5 {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: left;
+    padding: 100px;
+    width: 100%;
+}
+
+#explore {
+    padding: 24px 35px;
+    border-radius: 50px;
+    margin: 12px 0px 0px 35px;
+    background-color: #0F3CC9;
+    border: none;
+    color: white;
+}
+
+#vid {
+    float: right;
+}
+
+.content6 {
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: left;
+    padding: 100px;
+    width: 100%;
+    /* color: white; */
+}
+
+#v1 {
+    float: left;
+}
+
+#v2 {
+    float: left;
+}
+
+#lastfooter {
+    position: absolute;
+
+}
+
+#bottom-left {
+    margin-right: auto;
+    font-size: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+}
+
+#copyright {
+    margin-right: auto;
+    font-size: 20px;
+    /* / / position: absolute; / / */
+    left: 60px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 100px;
+    text-align: justify;
+}
+
+#jio-img {
+    margin-right: auto;
+    font-size: 2em;
+    /* position: absolute; */
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+}
+
+#footer-left {
+    float: right;
+    /* / / margin-right: auto; / / */
+    /* font-size: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    padding: 25px; */
+    /* / align-items: center; /
+    / text-align: center; / */
+    /* / / text-align: left; / / */
+}
+
+#right-footer {
+    float: right;
+    /* / / / flex / / / */
+    margin-right: 0px;
+}
+
+/* #jio-foot-logo{
+    margin-right: auto;
+    font-size: 10px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100px;
+    padding: 25px;
+    text-align: left;
+} */
+
+#footer-text {
+    height: 300px;
+    background-color: #0F3CC9;
+    color: white;
+    display: block;
+}
+
+#guidance-para {
+
+    /* / / align-self: center; / / */
+    text-align: center;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    padding-top: 50px;
+}
+
+#help-you-para {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 25px;
+    font-size: 1.2rem;
+}
+
+#para-btns {
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#footer-btns {
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    /* / font-weight: 700; / */
+    font-size: 1rem;
+    border-radius: 23px;
+    text-align: center;
+    /* / / / border: 1px thick; / / / */
+    border-width: thin;
+    border-color: grey;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    width: auto;
+}
+
+#footer-btns:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+/* article {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+aside {
+    width: 40%;
+    float: right;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    height: 100px;
+} */
+
+.connect-heding {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.column-1 {
+    height: 300px;
+}
+
+.connect {
+    /* / margin-left: 30px; /
+    / text-align: left; / */
+    color: grey;
+    padding: 10px
+}
+
+.connect:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.social-media-links {
+    word-spacing: 10px;
+    margin-top: 10px;
+}
+
+.store-link {
+    padding: 15px 5px 0px 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.card-items {
+    width: 30%;
+    height: 520px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    /* width: 1200px;
+    height:1200px; */
+
+}
+
+.card-items:hover {
+    cursor: pointer;
+}
+
+.card-text {
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    left: -350px;
+    border-radius: 50% 50% 0 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.card-para {
+    color: white;
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.card-para-lower {
+    color: #e0e0e0;
+    padding-top: 10px;
+}
+
+.card-main-btn {
+    background-color: #e7ebf8;
+    color: #0f3cc9;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-para-btn {
+    border: none;
+    border-radius: 20px;
+    width: auto;
+    padding: 8px;
+    height: 35px;
+    margin-top: 25px;
+    background-color: #9eb5fa;
+    color: #061951;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-para-btn:hover {
+    background-color: #becefb;
+    cursor: pointer;
+}
