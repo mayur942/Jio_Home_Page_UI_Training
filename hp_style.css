@@ -505,6 +505,7 @@ aside {
 
 .store-link {
     padding: 15px 5px 0px 0px;
+    cursor: pointer;
 }
 
 .cards {
